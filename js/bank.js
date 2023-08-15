@@ -7,8 +7,9 @@ document.getElementById('submit-btn').addEventListener('click', function(){
     const passwordField = document.getElementById('password-field');
     const password = passwordField.value;
 
-    if(email === 'rabbani@gmail.com' && password === 'rabbani'){
-        console.log ("tor Baaper Taka")
+    if(email === '12345@gmail.com' && password === '123456'){
+        window.location.href = '../bank-inside.html'
+
     }
     else{
         console.log('K re vai tui tore tw cinlam nah')

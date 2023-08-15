@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Inside</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-orange-100 p-20 w-9/12 m-auto mt-10">
+        <h1 class="text-5xl mb-10 font-bold text-violet-500 text-center">Let's get some <span class="text-violet-700">Moooney</span> !!!</h1>
+        <section class=" grid grid-cols-3 gap-4 text-yellow-50 mb-12">
+            <div class="bg-cyan-400 p-6  rounded-xl py-7">
+                <h2 class="text-3xl mb-1">Deposit</h2>
+                <h1 class="text-5xl">$00</h1>
+            </div>          
+
+            <div class="bg-red-400 p-6  rounded-xl py-7">
+                <h2 class="text-3xl mb-1">Withdraw</h2>
+                <h1 class="text-5xl">$00</h1>
+            </div>
+
+            <div class="bg-orange-400 p-6  rounded-xl py-7">
+                <h2 class="text-3xl mb-1">Balance </h2>
+                <h1 class="text-5xl">$100</h1>
+            </div>
+        </section>
+        
+        <section class="mt-12 grid grid-cols-2 gap-4 ">
+            <div class=" w-full px-10 py-5 bg-blue-400 rounded-xl">
+                <h3 class="text-2xl text-white font-semibold mb-5">Please Deposit </h3>
+                <div class="w-9/12 mx-auto">
+                    <input type="text" name="" id="deposit-input" class="block mb-5 w-full rounded-md py-2 pl-3" placeholder= "$$ Enter Your Amount" >
+                    <button class= "text-yellow-50  hover:bg-violet-500 bg-violet-700 py-2 px-8 block rounded-xl" id = 'deposit-btn' >Submit</button>
+                </div>
+    
+            </div>
+            <div class=" w-full px-10 py-5 bg-blue-400 rounded-xl">
+                <h3 class="text-2xl text-white font-semibold mb-5">Please Withdraw</h3>
+                <div class="w-9/12 mx-auto">
+                    <input type="text" name="" id="withdraw-input" class="block mb-5 w-full rounded-md py-2 pl-3" placeholder= "$$ Enter Your Amount" >
+                    <button class= "text-yellow-50  hover:bg-violet-700 bg-violet-500 py-2 px-8  block rounded-xl" id = 'withdraw-btn' >Submit</button>
+                </div>
+    
+            </div>
+        </section>
+
+    </header>
+    <main></main>
+    <footer></footer>
+
+    <script src="./js/bank.js"></script>
+</body>
+</html>
